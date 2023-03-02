@@ -1,29 +1,49 @@
-#Naprogramujte rekurzivní i koncově rekurzivní mocnina
-#(zaklad, exponent) vracející hodnotu zakladexponent. 
-#Při implementaci funkce nepoužívejte operátor **.
+"""
+Naprogramujte rekurzivní i koncově rekurzivní mocnina(zaklad, exponent) 
+vracející hodnotu zakladexponent. Při implementaci funkce nepoužívejte operátor **.
+"""
 
-def power(n,m):
-    if m == 1:
-        return n
-    elif m != 1:
-        return (m * power(n,m-1))
+"""
+Napište „hloupou“ funkci na výpočet součtu prvků intervalu celých čísel.
+"""
 
-#Napište „hloupou“ funkci na výpočet součtu 
-#prvků intervalu celých čísel.
+"""
+Napište rekurzivní funkci pro výpočet faktoriálu zadaného čísla n.
+"""
 
-def add(n):
-    if n == 0:
-        return 0
-    elif n != 0:
-        return n + add(n-1)
+"""
+Napište koncově rekurzivní funkci pro výpočet faktoriálu zadaného čísla n.
+"""
 
 
-#Napište rekurzivní funkci pro výpočet faktoriálu zadaného čísla n.
+"""
+Napište rekurzivní funkci pro výpočet délky seznamu.
+"""
 
-#Napište koncově rekurzivní funkci pro
-#výpočet faktoriálu zadaného čísla n.
+"""
+Napiště rekurzivní funkci pascal která vypočítá daný prvek pascalova trojúhelníka.
 
-#Napište rekurzivní funkci pro výpočet délky seznamu.
+Výpočet.
 
-#Napiště rekurzivní funkci pascal která vypočítá daný 
-#prvek pascalova trojúhelníka.
+Každý řádek (kromě prvního) má o jeden prvek víc než předchozí řádek. 
+Řádky vždy začínají a končí jedničkou, ostatní čísla se vypočítají jako součet 
+dvou čísel ležících nad nimi. (Z obrázku by to mělo být vidět; trojúhelník 
+samozřejmě pokračuje směrem dolů donekonečna). Řádky i prvky v nich budeme číslovat 
+od nuly, takže například prvek na řádku číslo 6 (tedy na sedmém řádku), který má 
+na tom řádku pozici 2 (je tedy na řádku třetí), je 15.
+
+    # Pacaluv trojuhelnik
+    
+                 1
+               1   1
+             1   2   1
+           1   3   3   1
+          1  4   6   4   1
+        1   5  10  10   5  1
+      1   6  15  20  15  6   1
+      
+   # Přiklady volání
+   pascal(0, 0) # -> 1
+   pascal(3, 3) # -> 1
+   pascal(6, 2) # -> 15
+"""
