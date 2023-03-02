@@ -2,6 +2,7 @@
 KMI/ZPP2 projects |^^|
 
 2 folers - 2 teaches: Panchártek, Laštovička.
+Literatura folder contains 2 files with the basic information and knowladge of Python algorihtms etc.
 
 Laštovička folder:
 Writing a code and working in Python Shell (IDLE). Open file -> Run Module.
