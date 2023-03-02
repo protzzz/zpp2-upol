@@ -1,7 +1,8 @@
 # Základy programování Python 2
 KMI/ZPP2 projects |^^|
 
-2 folers - 2 teaches: Panchártek, Laštovička.
+2 folers bc of different teachers and topics: Panchártek, Laštovička.
+
 Literatura folder contains 2 files with the basic information and knowladge of Python algorihtms etc.
 
 Laštovička folder:
