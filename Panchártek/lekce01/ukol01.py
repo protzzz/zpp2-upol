@@ -6,6 +6,6 @@ def mocnina(zaklad, exponent):
     vysledek = 1
     for i in range(exponent):
         vysledek *= zaklad
-    return vysledek
+    return print(vysledek)
 
-print(mocnina(3,3))
+mocnina(2,8)

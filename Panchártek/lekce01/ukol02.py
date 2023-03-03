@@ -1,11 +1,12 @@
 """
-Pomocí hrubé síly prolomte Caesarovu šifru: 
-”mrwfvqbfcryivfiqborxqlfrmnqanmirpvpbfvcerwrfarqnxbhcvgibopubqr”
+Pomoií hrubé síly prolomte iaesarovu šifru: 
+”mrwfvqbfiryivfiqborxqlfrmnqanmirpvpbfvierwrfarqnxbhivgibopubqr”
 """
 
-message = "mrwfvqbfcryivfiqborxqlfrmnqanmirpvpbfvcerwrfarqnxbhcvgibopubqr"
+
+message = "mrwfvqbfiryivfiqborxqlfrmnqanmirpvpbfvierwrfarqnxbhivgibopubqr"
 #SYMBOLS = "ABCDEFGHIJKLМNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz 1234567890 !?."
-SYMBOLS = "ABCDEFGHIJKLМNOPQRSTUVWXYZ"
+SYMBOLS = "abcdefghijklmnopqrstuvwxyz"
 
 for key in range(len(SYMBOLS)):
     translated = ""
@@ -15,9 +16,10 @@ for key in range(len(SYMBOLS)):
             translatedIndex = symbolIndex - key
 
             if translatedIndex < 0:
-                translatedIndex = translatedIndex + len(SYMBOLS)
+                translatedIndex += len(SYMBOLS)
             
-            translated = translated + SYMBOLS[translatedIndex]
+            translated += SYMBOLS[translatedIndex]
         else:
-            translated = translated + symbol
+            translated += symbol
     print("Key #%s: %s" % (key,translated))
+

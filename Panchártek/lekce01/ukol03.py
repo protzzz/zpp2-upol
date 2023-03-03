@@ -14,8 +14,14 @@ Výstup pro n = 8
 """
 n = 8
 
-seznam = [[0 for i in range(n)] for j in range(n)]
-
+#seznam = [[0 for i in range(n)] for j in range(n)]
+seznam = []
+for i in range(n):
+    row = []
+    for j in range(n):
+        row.append(0)
+    seznam.append(row)
+    
 for i in range(n):
     seznam[i][n-1-i] = 1
 
