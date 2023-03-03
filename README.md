@@ -1,4 +1,4 @@
-# Základy programování Python 2
+# Základy programování pro IT Python 2
 KMI/ZPP2 projects |^^|
 
 2 folers bc of different teachers and topics: Panchártek, Laštovička.
