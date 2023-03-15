@@ -10,9 +10,10 @@ Writing a code and working in Python Shell (IDLE). Open file -> Run Module.
   - Lekce 1 - Rekurze
   - Lekce 2 - Seznamy
   - Lekce 3 - Seznamy 2
-
+  - Lekce 4 - Stromy
 
 Panchártek folder:
   - Lekce 1 - Opakování
   - Lekce 2 - Rekurze
   - Lekce 3 - Anomymní funkce
+  - Lekce 4 - Propojené datové struktury 1
