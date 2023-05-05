@@ -12,7 +12,7 @@ Výstup pro n = 8
     [0, 1, 0, 0, 0, 0, 0, 0],
     [1, 0, 0, 0, 0, 0, 0, 0]]
 """
-n = 5
+n = 6
 
 #seznam = [[0 for i in range(n)] for j in range(n)]
 seznam = []

@@ -3,7 +3,6 @@ Pomoií hrubé síly prolomte iaesarovu šifru:
 ”mrwfvqbfiryivfiqborxqlfrmnqanmirpvpbfvierwrfarqnxbhivgibopubqr”
 """
 
-
 message = "mrwfvqbfiryivfiqborxqlfrmnqanmirpvpbfvierwrfarqnxbhivgibopubqr"
 #SYMBOLS = "ABCDEFGHIJKLМNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz 1234567890 !?."
 SYMBOLS = "abcdefghijklmnopqrstuvwxyz"
@@ -22,4 +21,3 @@ for key in range(len(SYMBOLS)):
         else:
             translated += symbol
     print("Key #%s: %s" % (key,translated))
-

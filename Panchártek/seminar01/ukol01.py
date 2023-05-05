@@ -8,4 +8,4 @@ def mocnina(zaklad, exponent):
         vysledek *= zaklad
     return print(vysledek)
 
-mocnina(2,8)
+mocnina(2,0)
