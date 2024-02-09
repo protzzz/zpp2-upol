@@ -8,7 +8,7 @@ def save_martix(file, matrix):
         f.write("\n")
     f.close
 
-save_martix("file.txt", [[1,2,3,3],[4,5,5,6],[6,7]])
+save_martix("file.txt", [[1,2,3,3],[4,5,5,6],[6,7,10]])
 
 # def save_martix(file, matrix):
 #     f = open(file, "w")

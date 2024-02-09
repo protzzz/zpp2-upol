@@ -16,7 +16,8 @@ def convert_bytes_to_number(bytes):
         number = number | byte
     return number
 
-bytes_array = convert_number_to_bytes(9308)
-numbers_array = convert_bytes_to_number([36,92])
+bytes_array = convert_number_to_bytes(1063)
+numbers_array = convert_bytes_to_number([4, 39])
 print(bytes_array)
 print(numbers_array)
+

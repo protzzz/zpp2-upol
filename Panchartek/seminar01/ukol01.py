@@ -9,3 +9,4 @@ def mocnina(zaklad, exponent):
     return print(vysledek)
 
 mocnina(2,0)
+# mocnina(0xff+1,2)
